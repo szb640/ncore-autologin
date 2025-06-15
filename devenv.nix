@@ -3,12 +3,14 @@
 {
   packages = with pkgs;[
     bash
+    bats
     git
     shellcheck
   ];
 
   enterTest = ''
     echo "Running tests"
-    shellcheck ncore-login.sh
+    shellcheck src/ncore-login.sh
+    bats ./test/cases.bats
   '';
 }
