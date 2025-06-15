@@ -1,2 +1,0 @@
-USERNAME = 'myusername'
-PASSWORD = 'MyPa$$word'
