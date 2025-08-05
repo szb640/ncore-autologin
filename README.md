@@ -13,4 +13,5 @@ The script can be configured via command line arguments or environment variables
 | -u       | --username      | NCORE_USERNAME       | Your username for logging into ncore.       |
 | -p       | --password      | NCORE_PASSWORD       | Your password for logging into ncore.       |
 | -l       | --location      | NCORE_LOCATION       | (Optional) The URL of the `login.php` page. |
+| -v       | --verbose       |                      | Enables verbose logging.                    |
 
