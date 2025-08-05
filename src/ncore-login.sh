@@ -5,7 +5,7 @@ DEFAULT_URL="https://ncore.pro/login.php"
 
 USERNAME=${NCORE_USERNAME:-""}
 PASSWORD=${NCORE_PASSWORD:-""}
-URL=${NCORE_LOCATION:-DEFAULT_URL}
+URL=${NCORE_LOCATION:-$DEFAULT_URL}
 
 print_usage() {
     echo "Usage: $0 [-u|--username| <user>] [-p|--password <pass>]"
