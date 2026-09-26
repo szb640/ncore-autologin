@@ -1,5 +1,9 @@
 # ncore-autologin
 
+## Archive
+
+This project is no longer being maintained, as an alternative workflow [Jackett](https://github.com/Jackett/Jackett) can be configured to log in periodically.
+
 ## Description
 
 This script can be used to automatically login to `ncore.pro`, so that your account is not deleted due to inactivity.
